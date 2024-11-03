@@ -27,7 +27,7 @@ public class phuongtrinhbac1vabac2 {
     public static void solveLinearEquation(Scanner scanner) {
         System.out.println("Giai phuong trinh bac 1: ax + b = 0");
         
-        // Nhập hệ số a và b
+       
         System.out.print("Nhap he so a: ");
         double a = scanner.nextDouble();
         System.out.print("Nhap he so b: ");
@@ -41,7 +41,7 @@ public class phuongtrinhbac1vabac2 {
                 System.out.println("Phuong trinh vo nghiem.");
             }
         } else {
-            // Tính nghiệm của phương trình
+  
             double x = -b / a;
             System.out.println("Phuong trinh co nghiem x = " + x);
         }
